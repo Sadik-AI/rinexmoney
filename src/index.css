@@ -586,6 +586,22 @@ ul {
   gap: 12px;
 }
 
+.portrait-frame {
+  overflow: hidden;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(37, 68, 51, 0.08), rgba(207, 155, 67, 0.08));
+}
+
+.portrait-frame img {
+  height: 320px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.portrait-frame--parent img {
+  height: 360px;
+}
+
 .anchor-card small,
 .member-card small,
 .bond-card small {

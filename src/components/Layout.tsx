@@ -13,8 +13,8 @@ function Layout() {
     <div className="site-shell">
       <div className="top-note">
         <span className="note-chip">Story Concept</span>
-        Visual references are credited and used as inspiration, not as personal family
-        photographs.
+        The family page now uses your real portraits, while the moments section keeps a
+        few credited reference images for storytelling mood.
       </div>
 
       <header className="site-header">

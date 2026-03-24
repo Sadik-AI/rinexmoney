@@ -1,3 +1,13 @@
+import abbuPhoto from '../Abbu.jpeg'
+import abidPhoto from '../Abid.jpeg'
+import alfazPhoto from '../Alfaz.jpeg'
+import ammiPhoto from '../Ammi.jpeg'
+import haiderPhoto from '../Haider.jpeg'
+import rashidaPhoto from '../Rashida.jpeg'
+import ridaPhoto from '../Rida.jpeg'
+import roshanPhoto from '../Roshan.jpeg'
+import sadikPhoto from '../Sadik.jpeg'
+
 export type NavItem = {
   label: string
   to: string
@@ -28,6 +38,8 @@ export type FamilyMember = {
   tagline: string
   summary: string
   chapter: string
+  imageSrc: string
+  imageAlt: string
 }
 
 export type DailyMoment = {
@@ -65,7 +77,7 @@ export const siteMeta = {
   householdLine:
     'Salim (57), Julekha (51), Roshan (31), Rashida (30), Haider (28), Sadik (25), Alfaz (24), Abid (22), and Rida (12).',
   footerNote:
-    'The photographs used here are visual references from Pexels to shape the tone of the story. They are not personal family photographs.',
+    'The family page now uses your real household portraits, while the moments page still includes a few credited reference images from Pexels for storytelling mood.',
   lastUpdated: 'March 24, 2026',
 }
 
@@ -142,6 +154,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Salim rises with responsibility already in his hands. He brings quiet structure to the family and makes safety feel ordinary.',
     chapter: 'His presence is calm, disciplined, and deeply reassuring.',
+    imageSrc: abbuPhoto,
+    imageAlt: 'Portrait of Salim, father of the family.',
   },
   {
     name: 'Julekha',
@@ -151,6 +165,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Julekha remembers who needs tea, who forgot a shawl, and who needs one more soft word before stepping into the day.',
     chapter: 'With her, care feels practical, tender, and sacred all at once.',
+    imageSrc: ammiPhoto,
+    imageAlt: 'Portrait of Julekha, mother of the family.',
   },
   {
     name: 'Roshan',
@@ -160,6 +176,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Roshan keeps family history close and helps hold the older responsibilities together when life starts moving too fast.',
     chapter: 'Calls get returned and dates get remembered because Roshan thinks ahead.',
+    imageSrc: roshanPhoto,
+    imageAlt: 'Portrait of Roshan.',
   },
   {
     name: 'Rashida',
@@ -169,6 +187,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Rashida brings calm into crowded rooms and turns ordinary chores into moments where people feel listened to and looked after.',
     chapter: 'She carries tenderness without ever making it fragile.',
+    imageSrc: rashidaPhoto,
+    imageAlt: 'Portrait of Rashida.',
   },
   {
     name: 'Haider',
@@ -176,8 +196,11 @@ export const familyMembers: FamilyMember[] = [
     role: 'Brother',
     tagline: 'The dependable shoulder',
     summary:
-      'Haider moves through responsibility with a steady pace, whether it is an outside errand, a family need, or a serious conversation.',
-    chapter: 'Even his silence feels useful because it comes with reliability.',
+      'Haider moves through responsibility with a steady pace, whether it is an outside errand, a family need, or a creative shoot. He is also part of the Ur SmartMaker channel with Tariq Khan and appears on the channel as a model and creative presence.',
+    chapter:
+      'He is your brother, 28 years old, and brings both reliability at home and confidence in front of the camera.',
+    imageSrc: haiderPhoto,
+    imageAlt: 'Portrait of Haider.',
   },
   {
     name: 'Sadik',
@@ -187,6 +210,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Sadik carries stories, modern ideas, family jokes, and quiet observation, often becoming the link between generations.',
     chapter: 'He notices the small details that make a house feel alive.',
+    imageSrc: sadikPhoto,
+    imageAlt: 'Portrait of Sadik.',
   },
   {
     name: 'Alfaz',
@@ -196,6 +221,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Alfaz brings playful energy, quick wit, and the kind of affection that hides inside teasing, banter, and sudden help.',
     chapter: 'He keeps the heavy days from settling too deeply into the walls.',
+    imageSrc: alfazPhoto,
+    imageAlt: 'Portrait of Alfaz.',
   },
   {
     name: 'Abid',
@@ -205,6 +232,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Abid is old enough to take responsibility and young enough to keep the entire house feeling in motion.',
     chapter: 'He carries both adulthood and boyish brightness at the same time.',
+    imageSrc: abidPhoto,
+    imageAlt: 'Portrait of Abid.',
   },
   {
     name: 'Rida',
@@ -214,6 +243,8 @@ export const familyMembers: FamilyMember[] = [
     summary:
       'Rida moves through the home with schoolbooks, questions, and a brightness that softens everyone around her.',
     chapter: 'Her laughter keeps the whole family close to wonder.',
+    imageSrc: ridaPhoto,
+    imageAlt: 'Portrait of Rida.',
   },
 ]
 

@@ -38,6 +38,9 @@ function FamilyPage() {
         <div className="parent-grid">
           {parents.map((member) => (
             <article className="anchor-card" key={member.name}>
+              <div className="portrait-frame portrait-frame--parent">
+                <img src={member.imageSrc} alt={member.imageAlt} />
+              </div>
               <div className="member-card__top">
                 <span className="role-tag">{member.role}</span>
                 <span className="age-tag">{member.age}</span>
@@ -60,6 +63,9 @@ function FamilyPage() {
         <div className="member-grid">
           {children.map((member) => (
             <article className="member-card" key={member.name}>
+              <div className="portrait-frame">
+                <img src={member.imageSrc} alt={member.imageAlt} />
+              </div>
               <div className="member-card__top">
                 <span className="role-tag">{member.role}</span>
                 <span className="age-tag">{member.age}</span>
