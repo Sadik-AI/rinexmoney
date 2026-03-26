@@ -77,8 +77,13 @@ export const siteMeta = {
   householdLine:
     'Salim (57), Julekha (51), Roshan (31), Rashida (30), Haider (28), Sadik (25), Alfaz (24), Abid (22), and Rida (12).',
   footerNote:
-    'The family page now uses your real household portraits, while the moments page still includes a few credited reference images from Pexels for storytelling mood.',
+    'The homepage and family page now use your real family photographs, while the moments page still includes a few credited reference images from Pexels for storytelling mood.',
   lastUpdated: 'March 24, 2026',
+}
+
+export const familyGroupPhoto = {
+  src: '/Family%20photo.jpeg',
+  alt: 'Group portrait of Salim, Julekha, and their children together as a family.',
 }
 
 export const navigation: NavItem[] = [

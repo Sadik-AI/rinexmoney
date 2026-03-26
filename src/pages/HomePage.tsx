@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import {
   chapterCards,
+  familyGroupPhoto,
   familyGroups,
   familyMembers,
   featuredReferences,
@@ -45,15 +46,10 @@ function HomePage() {
 
         <div className="hero-collage">
           <article className="hero-image-card hero-image-card--main">
-            <img
-              src={featuredReferences.portrait.imageUrl}
-              alt={featuredReferences.portrait.alt}
-            />
+            <img src={familyGroupPhoto.src} alt={familyGroupPhoto.alt} />
             <div className="image-credit">
-              <span>Family portrait reference</span>
-              <a href={featuredReferences.portrait.href} target="_blank" rel="noreferrer">
-                Photo by {featuredReferences.portrait.photographer}
-              </a>
+              <span>Real family portrait</span>
+              <span>Salim, Julekha, Roshan, Rashida, Haider, Sadik, Alfaz, Abid, and Rida</span>
             </div>
           </article>
 
